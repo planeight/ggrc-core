@@ -11,6 +11,7 @@ import accessControlList from '../mixins/access-control-list';
 import proposable from '../mixins/proposable';
 import assertionsCategories from '../mixins/assertions-categories';
 import relatedAssessmentsLoader from '../mixins/related-assessments-loader';
+import changeableExternally from '../mixins/changeable-externally';
 import Stub from '../stub';
 
 export default Cacheable('CMS.Models.Control', {
@@ -30,6 +31,7 @@ export default Cacheable('CMS.Models.Control', {
     proposable,
     assertionsCategories,
     relatedAssessmentsLoader,
+    changeableExternally,
   ],
   is_custom_attributable: true,
   isRoleable: true,
